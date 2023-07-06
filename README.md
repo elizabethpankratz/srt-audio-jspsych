@@ -30,8 +30,15 @@ This plugin has the usual parameters of jsPsych's existing `audio-button-respons
 
 If you use this plugin, please cite this repository:
 
-
-
+```
+@misc{Pankratz_Serial_reaction_time_2023,
+  author = {Pankratz, Elizabeth},
+  month = jul,
+  title = {{Serial reaction time to audio stimuli: A plugin for jsPsych 7}},
+  url = {https://github.com/elizabethpankratz/srt-audio-jspsych},
+  year = {2023}
+}
+```
 
 
 ## References
