@@ -12,7 +12,7 @@ Audio recordings of target words are played (e.g., the nonwords *ral*, *baf*, *t
 
 ## How to use
 
-See the plugin in action by opening [`index.html`](index.html) in a browser.
+See this plugin, `audio-button-response-grid`, in action by opening [`index.html`](index.html) in a browser.
 The experiment code can be found in [`exp.js`](exp.js).
 
 This code illustrates a 2x3 grid (as in the original study of three-word non-adjacent dependencies) as well as a 2x2 grid.
@@ -20,7 +20,7 @@ This code illustrates a 2x3 grid (as in the original study of three-word non-adj
 
 ## Parameters
 
-This plugin has the usual parameters of jsPsych's existing `audio-button-response` plugin (see its documentation [here](https://www.jspsych.org/7.0/plugins/audio-button-response/)), with the addition of:
+ `audio-button-response-grid` has the usual parameters of jsPsych's existing `audio-button-response` plugin (see its documentation [here](https://www.jspsych.org/7.0/plugins/audio-button-response/)), with the addition of:
 
 - `rows`: Integer, the number of rows the grid should have.
 - `columns`: Integer, the number of columns the grid should have.
