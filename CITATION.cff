@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: >-
+  Serial reaction time to audio stimuli: A plugin for jsPsych 7
+message: >-
+  If you use this dataset, please cite it using the metadata
+  from this file.
+type: dataset
+authors:
+  - given-names: Elizabeth
+    family-names: Pankratz
+    affiliation: University of Edinburgh
+    orcid: 'https://orcid.org/0000-0001-8453-1105'
+repository-code: 'https://github.com/elizabethpankratz/srt-audio-jspsych'
+license: CC-BY-2.0
+commit: 777c6ab3333dea539a4e34c547296d778e6557bc
+version: '1'
+date-released: '2023-07-06'
