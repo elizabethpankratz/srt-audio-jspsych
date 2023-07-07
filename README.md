@@ -25,6 +25,8 @@ This code illustrates a 2x3 grid (as in the original study of three-word non-adj
 - `rows`: Integer, the number of rows the grid should have.
 - `columns`: Integer, the number of columns the grid should have.
 
+The grid is based on the `html-button-response-grid` plugin created by Aislinn Keogh that can be found [here](https://github.com/aislinnkeogh/custom-jspysch-plugins).
+
 
 ## Citation
 
