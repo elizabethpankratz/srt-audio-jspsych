@@ -121,6 +121,11 @@ var jsPsychAudioButtonResponseGrid = (function (jspsych) {
               console.error(err);
           });
           const setupTrial = () => {
+              // Check whether provided choices match provided grid size, and throw error if not.
+              if (trial.rows * trial.columns !== trial.choices.length){
+                console.error('Error in audio-button-response plugin. The length of the choices array does not match grid dimensions.')
+              }
+
               // set up end event if trial needs it
               if (trial.trial_ends_after_audio) {
                   this.audio.addEventListener("ended", end_trial);
